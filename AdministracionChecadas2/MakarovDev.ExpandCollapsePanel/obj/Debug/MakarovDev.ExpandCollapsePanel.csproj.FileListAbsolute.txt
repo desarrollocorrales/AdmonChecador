@@ -1,0 +1,30 @@
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+C:\Users\Guillermo\Desktop\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+C:\Users\Sergio\Documents\Visual Studio 2013\Projects\AdministracionChecadas2\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb

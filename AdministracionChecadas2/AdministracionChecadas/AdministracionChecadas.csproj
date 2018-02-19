@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABF06732-2468-4406-B596-5850807336EA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdministracionChecadas</RootNamespace>
+    <AssemblyName>AdministracionChecadas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logoNuevo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FEncrypt">
+      <HintPath>dll\FEncrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\ConsultasNegocio.cs" />
+    <Compile Include="Clases\IConsultasNegocio.cs" />
+    <Compile Include="Datos\ConsultasDatos.cs" />
+    <Compile Include="Datos\IConsultasDatos.cs" />
+    <Compile Include="GUIs\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\frmAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\frmAcceso.Designer.cs">
+      <DependentUpon>frmAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\frmAdmon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\frmAdmon.Designer.cs">
+      <DependentUpon>frmAdmon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\frmChecadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\frmChecadas.Designer.cs">
+      <DependentUpon>frmChecadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\SiNoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\SiNoDialog.Designer.cs">
+      <DependentUpon>SiNoDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\AttLogs.cs" />
+    <Compile Include="Modelos\Conexion.cs" />
+    <Compile Include="Modelos\IConexion.cs" />
+    <Compile Include="Modelos\ManejoSql.cs" />
+    <Compile Include="Modelos\Utilerias.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUIs\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\frmAcceso.resx">
+      <DependentUpon>frmAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\frmAdmon.resx">
+      <DependentUpon>frmAdmon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\frmChecadas.resx">
+      <DependentUpon>frmChecadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\SiNoDialog.resx">
+      <DependentUpon>SiNoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MakarovDev.ExpandCollapsePanel\MakarovDev.ExpandCollapsePanel.csproj">
+      <Project>{BE76A6FE-225F-4287-9CA0-231F5AF4CDC1}</Project>
+      <Name>MakarovDev.ExpandCollapsePanel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\probar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aceptar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actualizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="zkemkeeper">
+      <Guid>{FE9DED34-E159-408E-8490-B720A5E632C7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiempo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checadas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reinicio22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reinicio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oculta11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logoNuevo.ico" />
+    <None Include="Resources\probar2.png" />
+    <None Include="Resources\Actualizar2.png" />
+    <None Include="Resources\setuser2.png" />
+    <None Include="Resources\setuser1.png" />
+    <None Include="Resources\GetUser2.png" />
+    <None Include="Resources\GetUser1.png" />
+    <None Include="Resources\Reinicio11.png" />
+    <None Include="Resources\btodo1.png" />
+    <None Include="Resources\apagar1.png" />
+    <None Include="Resources\sync2.png" />
+    <None Include="Resources\sync1.png" />
+    <None Include="Resources\SetTime2.png" />
+    <None Include="Resources\SetTime1.png" />
+    <None Include="Resources\getTime2.png" />
+    <None Include="Resources\getTime1.png" />
+    <None Include="Resources\checadas1.png" />
+    <None Include="Resources\user1.png" />
+    <None Include="Resources\reinicio1.png" />
+    <None Include="Resources\tiempo1.png" />
+    <None Include="Resources\Dchecadas2.png" />
+    <None Include="Resources\Dchecadas1.png" />
+    <None Include="Resources\aceptar1.png" />
+    <None Include="Resources\admin2.png" />
+    <None Include="Resources\admin1.png" />
+    <None Include="Resources\descarga2.png" />
+    <None Include="Resources\descarga1.png" />
+    <None Include="Resources\Configuracion1.png" />
+    <None Include="Resources\Configuracion2.png" />
+    <None Include="Resources\salir2.png" />
+    <None Include="Resources\oculta1.png" />
+    <None Include="Resources\btodo2.png" />
+    <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

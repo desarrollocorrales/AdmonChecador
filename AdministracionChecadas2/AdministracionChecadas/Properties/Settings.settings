@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AdministracionChecadas.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="accesoConfig" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c4ffj0eq</Value>
+    </Setting>
+    <Setting Name="accesoAdmon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nqzba.2018</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
